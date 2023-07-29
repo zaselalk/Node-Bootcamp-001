@@ -1,2 +1,2 @@
-# Node-Bootcamp-001
-Resource for Node Bootcamp 001 program
+# Node-Bootcamp-002
+Resource of Javascript introduction session
