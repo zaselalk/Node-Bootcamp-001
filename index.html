@@ -10,15 +10,24 @@
     <nav>Todo</nav>
     <div class="container">
       <form id="form">
-        <input type="text" id="todo" />
+        <input type="text" id="todoText" />
         <select id="todoType">
-          <option value="Ace">Acedamic</option>
+          <option value="Acedamic">Acedamic</option>
           <option value="work">Work</option>
         </select>
-        <button type="button" id="newTodo">ADD</button>
+        <button type="submit" id="newTodo">ADD</button>
       </form>
       <ul id="todoItems"></ul>
     </div>
-    <script type="module" src="./script.js"></script>
+
+    <div id="backdrop" class="backdrop hidden"></div>
+    <div id="modal" class="modal hidden">
+      <h2>Update item</h2>
+      <form id="update-form">
+        <input type="text" id="update-input" />
+        <button>Update Item</button>
+      </form>
+    </div>
+    <script src="./script.js"></script>
   </body>
 </html>
