@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="start-screen">
+      <h1>QUIZ APP</h1>
+      <p>
+        Welcome to the Quiz App. This is a practical way to check your knowledge
+      </p>
+      <button id="start-btn">Start Quiz</button>
+    </div>
+
+    <div id="quiz-screen" class="hidden">
+      <h5 id="quiz-no"></h5>
+      <h4 id="quiz-title"></h4>
+      <div id="quiz-answers">
+        <button class="answer-btn"></button>
+        <button class="answer-btn"></button>
+        <button class="answer-btn"></button>
+        <button class="answer-btn"></button>
+      </div>
+      <button id="next-btn">Next</button>
+    </div>
+
+    <div id="score-screen" class="hidden">
+      <p id="precentage">10%</p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
