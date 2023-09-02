@@ -1,7 +1,9 @@
-// const { sum, sub } = require("./math");
-import { sum, sub } from "./math.js";
-let ans = sum(4, 5);
-let ans2 = sub(9, 5);
+var cowsay = require("cowsay");
 
-console.log(ans);
-console.log(ans2);
+console.log(
+  cowsay.say({
+    text: "I'm a Suraj",
+    e: "oO",
+    T: "U ",
+  })
+);
